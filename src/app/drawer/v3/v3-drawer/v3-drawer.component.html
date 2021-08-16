@@ -1,0 +1,7 @@
+<div class="drawer-container" [ngStyle]="drawerStyles">
+  <ng-content select=".head"></ng-content>
+  <button class="close" (click)="close()">X</button>
+  <hr />
+
+  <ng-content select=".body"></ng-content>
+</div>
