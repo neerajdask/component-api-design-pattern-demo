@@ -1,0 +1,20 @@
+:host {
+  --drawer-width: 400px;
+}
+
+.drawer-container {
+  width: var(--drawer-width);
+}
+
+.position-right {
+  right: calc(-1 * var(--drawer-width));
+  &.is-open {
+    right: 0;
+  }
+}
+.position-left {
+  left: calc(-1 * var(--drawer-width));
+  &.is-open {
+    left: 0;
+  }
+}

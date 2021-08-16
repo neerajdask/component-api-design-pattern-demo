@@ -2,6 +2,7 @@
   [isOpen]="isOpen"
   #commDrawer="drawerComp"
   (closeDrawer)="close()"
+  [style.--drawer-width]="'200px'"
 >
   <div class="head">
     <button class="close" (click)="commDrawer.close()">X</button>

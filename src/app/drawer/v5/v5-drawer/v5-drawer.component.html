@@ -1,4 +1,9 @@
-<div class="drawer-container" [ngStyle]="drawerStyles">
+<div
+  class="drawer-container"
+  [class.is-open]="isOpen"
+  [class.position-right]="position == 'right'"
+  [class.position-left]="position == 'left'"
+>
   <ng-content select=".head"></ng-content>
 
   <hr />
