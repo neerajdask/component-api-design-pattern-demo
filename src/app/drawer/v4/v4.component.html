@@ -1,0 +1,19 @@
+<app-v4-drawer
+  [isOpen]="isOpen"
+  #commDrawer="drawerComp"
+  (closeDrawer)="close()"
+>
+  <div class="head">
+    <button class="close" (click)="commDrawer.close()">X</button>
+    <h4>Comments</h4>
+  </div>
+
+  <div class="body">
+    <ul>
+      <li>Loved the article!</li>
+      <li>Very well written</li>
+    </ul>
+  </div>
+</app-v4-drawer>
+
+<button (click)="isOpen = true">Open v4</button>

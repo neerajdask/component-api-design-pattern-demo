@@ -7,6 +7,8 @@ import { V2Component } from './drawer/v2/v2.component';
 import { V2DrawerComponent } from './drawer/v2/v2-drawer/v2-drawer.component';
 import { V3Component } from './drawer/v3/v3.component';
 import { V3DrawerComponent } from './drawer/v3/v3-drawer/v3-drawer.component';
+import { V4Component } from './drawer/v4/v4.component';
+import { V4DrawerComponent } from './drawer/v4/v4-drawer/v4-drawer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { V3DrawerComponent } from './drawer/v3/v3-drawer/v3-drawer.component';
     V2Component,
     V2DrawerComponent,
     V3Component,
-    V3DrawerComponent
+    V3DrawerComponent,
+    V4Component,
+    V4DrawerComponent
   ],
   imports: [
     BrowserModule
